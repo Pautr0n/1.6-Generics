@@ -29,16 +29,9 @@ public class Main {
         IO.println("Level 2. Exercise 1: Executing levels1and2.GenericMethods printGenerics() with a non generic argument:");
         GenericMethods.printGenerics(true,person,arg3);
 
-        Person person2 = new Person("Cañita", "Brava", 79);
-        Person person3 = new Person("Bernardo", "Cortés", 91);
 
-        ArrayList<Person> personList = new ArrayList<>();
-        personList.add(person);
-        personList.add(person2);
-        personList.add(person3);
-
-        IO.println("Level 2. Exercise 2: Executing levels1and2.GenericMethods printGenerics() with a generic List");
-        GenericMethods.printGenerics(personList);
+        IO.println("Level 2. Exercise 2: Executing levels1and2.GenericMethods printGenerics() with a generic variable argument list");
+        GenericMethods.printGenerics(1,"Tron",true,5.236, person);
 
     }
 
