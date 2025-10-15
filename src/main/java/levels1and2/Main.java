@@ -1,6 +1,5 @@
 package levels1and2;
 
-import java.util.ArrayList;
 
 public class Main {
 

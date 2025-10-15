@@ -1,6 +1,5 @@
 package levels1and2;
 
-import java.util.List;
 
 class GenericMethods {
 
@@ -17,7 +16,7 @@ class GenericMethods {
                 "Printing argument 2: " + s + "\n" +
                 "Printing argument 3: " + bool + "\n");
     }
-
+    @SafeVarargs
     static <T> void printGenerics(T...t){
         for(T l:t){
             IO.println(l);
