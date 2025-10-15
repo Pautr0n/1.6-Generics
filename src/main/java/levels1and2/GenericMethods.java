@@ -18,12 +18,8 @@ class GenericMethods {
                 "Printing argument 3: " + bool + "\n");
     }
 
-    static <T> void printGenerics(List<T> list){
-        if(list==null||list.isEmpty()){
-            IO.println("List is null or empty.");
-            return;
-        }
-        for(T l:list){
+    static <T> void printGenerics(T...t){
+        for(T l:t){
             IO.println(l);
         }
 
