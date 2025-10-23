@@ -4,11 +4,11 @@ public class SmartPhone implements Phone {
 
     @Override
     public void call() {
-        IO.println("Calling....");
+        System.out.println("Calling....");
     }
 
-    public void takePicture(){
-        IO.println("A picture has been taken.");
+    public void takePicture() {
+        System.out.println("A picture has been taken.");
     }
 
 
