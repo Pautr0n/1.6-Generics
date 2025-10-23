@@ -1,4 +1,4 @@
-# **Sprint 1, Task 4 - Generics**
+# **Sprint 1, Task 6 - Generics**
 
 ## Exercise Description:
 - ***Level1:***
